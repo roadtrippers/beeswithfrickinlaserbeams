@@ -1,0 +1,10 @@
+{
+  "name": "beeswithfrickinlaserbeams",
+  "version": "1.0.0",
+  "description": "Bees with frickin' laser beams",
+  "dependencies": {
+    "adm-zip": "^0.4.7",
+    "aws-sdk": "^2.1.26",
+    "bluebird": "^2.9.25"
+  }
+}
