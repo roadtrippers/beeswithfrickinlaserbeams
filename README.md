@@ -2,7 +2,7 @@
 
 An experiment in using AWS Lambda to load test web applications.
 
-See the full explanation on [our blog](https://log.roadtrippers.com/lambda-bees-with-frickin-laser-beams.html).
+See the full explanation on [our blog](http://log.roadtrippers.com/lambda-bees-with-frickin-laser-beams.html).
 
 ## Installation
 
@@ -12,7 +12,13 @@ npm install
 
 ## Usage
 
-The script requires the following params: -n - Total request count -c - Concurrent request count -u - Target url
+The script requires the following params:
+
+`-n` - Total request count
+
+`-c` - Concurrent request count
+
+`-u` - Target url
 
 ```
 node bees.js -n 2000 -c 100 -u https://SomeServerYouAreAllowedToCrash.com/
